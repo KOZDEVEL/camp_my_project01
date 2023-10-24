@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>출발 비디오 여행!</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
-    <title>출발 비디오 여행!</title>
-</head>
+    <body>
+        <header class="mainTitle">
+            <h1>Departure Video Travel</h1>
+        </header>
 
-<body>
-    <header class="mainTitle">
-        <h1>Departure Video Travel</h1>
-    </header>
+        <section>
+            <div class="film-box">
+                <div class="design-purposes"></div>
+                <form id="search-box">
+                    <input type="text" id="search-input" placeholder="영화 제목을 입력해주세요." required />
+                    <button type="button" id="search-button">검색</button>
+                </form>
+                <div class="movieBox"></div>
+                <div class="horoscopeBox"></div>
+                <div class="half-circle"></div>
+            </div>
+        </section>
 
-    <section>
-        <div class="film-box">
-            <div class="design-purposes"></div>
-            <form id="search-box">
-                <input type="text" id="search-input" placeholder="영화 제목을 입력해주세요." required />
-                <button type="button" id="search-button">검색</button>
-            </form>
-            <div class="movieBox"></div>
-            <div class="horoscopeBox"></div>
-            <div class="half-circle"></div>
-        </div>
-    </section>
+        <section>
+            <h1>beeeeeest movie</h1>
+            <div id="movie-card-container"></div>
+        </section>
 
-    <section>
-        <h1>beeeeeest movie</h1>
-        <div id="movie-card-container">
-        </div>
-    </section>
-
-    <script src="./main.js"></script>
-</body>
-
+        <script src="./main.js"></script>
+    </body>
 </html>

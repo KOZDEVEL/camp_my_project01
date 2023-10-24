@@ -1,26 +1,26 @@
 body {
     background-color: rgb(255, 246, 208);
-  }
-  
-  .mainTitle {
-    background-image: url("https://www.gifmaniacos.es/wp-content/uploads/2021/08/paisajes-con-agua-Gifmaniacos.es-6.gif");
+}
+
+.mainTitle {
+    background-image: url('https://www.gifmaniacos.es/wp-content/uploads/2021/08/paisajes-con-agua-Gifmaniacos.es-6.gif');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     height: 750px; /* Set the height of the header */
-  }
-  
-  .mainTitle::before {
-    content: "";
+}
+
+.mainTitle::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  }
-  
-  .mainTitle h1 {
+}
+
+.mainTitle h1 {
     text-align: center;
     font-size: 36px; /* Adjust the font size as needed */
     color: white; /* Text color */
@@ -28,29 +28,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  #search-box {
+}
+
+#search-box {
     padding-top: 90px;
     text-align: center; /* 중앙 정렬 */
-  }
-  
-  
-  #movie-card-container {
+}
+
+#movie-card-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-  }
-  
-  .movie-card {
+}
+
+.movie-card {
     background-color: #f8baba;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
-  }
-  
-  .movie-card img {
+}
+
+.movie-card img {
     max-width: 100%;
     height: auto;
-  }
+}
